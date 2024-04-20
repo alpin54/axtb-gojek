@@ -8,25 +8,21 @@ import style from "./style.module.scss";
 import SystemIcon from "presentation/component/atoms/SystemIcon";
 
 const Button = (props) => {
-	const { variant = "primary", category, children, type, icon } = props;
+	const { variant = "primary", category, children, to, icon } = props;
 
 	const iconCont = icon && <SystemIcon name={icon} />;
 	let variantStyle = style.btn;
 	if (variant === "primary") {
 		variantStyle += " " + style.btnPrimary;
-	} else if (variant === "secondary") {
-		variantStyle += " " + style.btnSecondary;
-	} else if (variant === "tertiary") {
-		variantStyle += " " + style.btnTertiary;
-	} else if (variant === "white") {
-		variantStyle += " " + style.btnWhite;
+	} else if (variant === "outline") {
+		variantStyle += " " + style.btnOutline;
 	}
 
 	if (category === "arrow") {
 		variantStyle = style.btnArrow;
 	}
 
-	if (type) {
+	if (to) {
 		return (
 			<Link {...props} className={variantStyle}>
 				{children}

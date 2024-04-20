@@ -10,18 +10,13 @@ const FeatureCard = (props) => {
 		classNameStyle += " " + style.cardWhite;
 	}
 	let buttonEl = (
-		<Button type="link" href={props.btn.to}>
-			{props.btn.text}
+		<Button to={props.btn.to}>
+			<span data-title={props.btn.text}>{props.btn.text}</span>
 		</Button>
 	);
 	if (props.button === "arrow") {
 		buttonEl = (
-			<Button
-				type="link"
-				href={props.btn.to}
-				category="arrow"
-				icon="arrow-right"
-			>
+			<Button to={props.btn.to} category="arrow" icon="arrow-right">
 				{props.btn.text}
 			</Button>
 		);

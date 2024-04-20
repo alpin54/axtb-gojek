@@ -14,8 +14,8 @@ const Scale = (props) => {
 				<div className={style.head}>
 					<h2 className={style.title}>{props.title}</h2>
 					<div className={style.btn}>
-						<Button type="link" href={props.btn.to}>
-							{props.btn.text}
+						<Button to={props.btn.to}>
+							<span data-title={props.btn.text}>{props.btn.text}</span>
 						</Button>
 					</div>
 				</div>

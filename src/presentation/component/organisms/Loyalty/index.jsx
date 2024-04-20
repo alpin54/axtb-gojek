@@ -17,7 +17,9 @@ const Loyalty = (props) => {
 						{props.description !== undefined ? (
 							<p className={style.desc}>{props.description}</p>
 						) : null}
-						<Button type="link">{props.btnText}</Button>
+						<Button to="loyality">
+							<span data-title={props.btnText}>{props.btnText}</span>
+						</Button>
 					</div>
 				</div>
 			</div>

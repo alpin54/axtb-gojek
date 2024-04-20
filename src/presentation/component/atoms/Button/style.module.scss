@@ -1,6 +1,7 @@
 @import "core/styles/_assets.scss";
 
 .btn {
+	position: relative;
 	display: inline-flex;
 	width: fit-content;
 	justify-content: center;
@@ -16,6 +17,22 @@
 	@include font-size(h6);
 	font-weight: fw(semi-bold);
 	transition: all 0.3s ease;
+	overflow: hidden;
+	&:hover {
+		span {
+			transform: translateY(-40px);
+		}
+	}
+	span {
+		transition: transform 0.3s ease-in-out;
+		margin-right: 4px;
+		&::after {
+			content: attr(data-title);
+			display: block;
+			position: absolute;
+			top: 40px;
+		}
+	}
 	&Primary {
 		background-color: color(primary, 1);
 		&:hover {

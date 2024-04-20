@@ -20,8 +20,8 @@ const NotFoundSection = () => {
 						<p className={style.desc}>
 							But don't be sad #ThereIsAlwaysAWay for you!
 						</p>
-						<Button type="link" href="/">
-							Back to homepage
+						<Button variant="outline" to="/">
+							<span data-title="Back to homepage">Back to homepage</span>
 						</Button>
 					</div>
 				</div>

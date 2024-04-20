@@ -13,8 +13,8 @@ const JoinCard = (props) => {
 			<div className={style.text}>
 				<h4 className={style.title}>{props.title}</h4>
 				<p className={style.desc}>{props.description}</p>
-				<Button type="link" href={props.btn.to}>
-					{props.btn.text}
+				<Button to={props.btn.to}>
+					<span data-title={props.btn.text}>{props.btn.text}</span>
 				</Button>
 			</div>
 		</div>
