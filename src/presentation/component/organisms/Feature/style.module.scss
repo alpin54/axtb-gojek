@@ -1,0 +1,23 @@
+@import "core/styles/_assets.scss";
+
+.feature {
+	padding: 80px 0;
+	background-color: color(black, 2);
+}
+.head {
+	margin-bottom: 80px;
+}
+.title {
+	font-family: ff(title);
+	@include font-size(h1);
+	font-weight: fw(bold);
+	color: color(white);
+	margin-bottom: 0;
+}
+.body {
+	display: flex;
+}
+.card {
+	flex-basis: 25%;
+	height: auto;
+}

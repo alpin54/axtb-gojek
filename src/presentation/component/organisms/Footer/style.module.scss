@@ -1,0 +1,132 @@
+@import "core/styles/_assets.scss";
+
+.footer {
+	padding: 64px 0;
+	overflow: hidden;
+	background-color: color(black, 2);
+	color: color(white);
+}
+.inner {
+	position: relative;
+}
+.title {
+	font-family: ff(basic);
+	@include font-size(h5);
+	font-weight: fw(semi-bold);
+	margin-bottom: 24px;
+}
+.column {
+	flex-basis: 20%;
+}
+.menu {
+	padding: 40px 0;
+	display: flex;
+}
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.item {
+	margin-bottom: 16px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+.link {
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
+	@include font-size(h6);
+	&::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: -8px;
+		display: block;
+		width: 100%;
+		height: 2px;
+		background-color: color(white);
+		transform: scaleX(0);
+		transform-origin: right center;
+		transition: transform 0.3s ease;
+	}
+	&:hover {
+		&::before {
+			transform-origin: left center;
+			transform: none;
+		}
+	}
+}
+.sosmed {
+	$fs: &;
+	margin-bottom: 24px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	&List {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+	}
+	&Item {
+		margin-right: 24px;
+		&:last-child {
+			margin-right: 0;
+		}
+		&:global(.facebook) {
+			a:hover {
+				color: color(social-media, facebook);
+				color: #1877f2;
+			}
+		}
+		&:global(.instagram) {
+			a:hover {
+				color: color(social-media, instagram);
+				color: #833ab4;
+			}
+		}
+		&:global(.youtube) {
+			a:hover {
+				color: color(social-media, youtube);
+				color: #ff0000;
+			}
+		}
+		&:global(.twitter) {
+			a:hover {
+				color: color(social-media, twitter);
+				color: #1da1f2;
+			}
+		}
+		&:global(.apple) {
+			a:hover {
+				color: color(social-media, apple);
+				color: #a2aaad;
+			}
+		}
+		&:global(.playstore) {
+			a:hover {
+				color: color(social-media, playstore);
+				color: #3bccff;
+			}
+		}
+	}
+	&Link {
+		display: block;
+		text-decoration: none;
+		transition: all 0.3s ease;
+		i {
+			@include font-size(h3);
+		}
+	}
+}
+.copyright {
+	border-top: 1px solid color(white);
+	padding: 40px 0;
+	&Text {
+		@include font-size(h6);
+		margin-bottom: 0;
+		color: color(white);
+	}
+}

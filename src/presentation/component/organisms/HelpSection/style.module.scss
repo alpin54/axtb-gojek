@@ -1,0 +1,26 @@
+@import "core/styles/_assets.scss";
+
+.help {
+	padding: 80px 0;
+}
+.head {
+	text-align: center;
+	margin-bottom: 80px;
+}
+.title {
+	font-family: ff(title);
+	@include font-size(h1);
+	font-weight: fw(black);
+	margin-bottom: 0;
+}
+.body {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+.card {
+	flex-basis: 25%;
+	padding: 8px;
+}

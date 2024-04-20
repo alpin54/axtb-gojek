@@ -1,0 +1,31 @@
+@import "core/styles/_assets.scss";
+
+.banner {
+	display: flex;
+	flex-direction: column;
+	background-color: color(black, 2);
+}
+.inner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 600px;
+}
+.img {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 100%;
+}
+.text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.title {
+	font-family: ff(title);
+	@include font-size(banner-title);
+	font-weight: fw(bold);
+	color: color(white);
+	margin-bottom: 0;
+}

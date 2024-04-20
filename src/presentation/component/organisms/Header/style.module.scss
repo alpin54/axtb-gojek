@@ -1,0 +1,71 @@
+@import "core/styles/_assets.scss";
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: zi(header);
+	background-color: color(black, 2);
+	padding: 32px 0;
+}
+.inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo {
+	&Link {
+		display: block;
+	}
+	img {
+		display: block;
+		height: 32px;
+	}
+}
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.item {
+	margin-right: 32px;
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.link {
+	position: relative;
+	font-family: ff(secondary);
+	font-weight: fw(semi-bold);
+	@include font-size(h6);
+	text-decoration: none;
+	display: inline-block;
+	color: color(white);
+	&::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: -8px;
+		display: block;
+		width: 100%;
+		height: 2px;
+		background-color: color(white);
+		transform: scaleX(0);
+		transform-origin: right center;
+		transition: transform 0.3s ease;
+	}
+	&:hover {
+		&::before {
+			transform: none;
+			transform-origin: left center;
+		}
+	}
+}
+.active {
+	&::before {
+		transform: none;
+		transform-origin: left center;
+	}
+}

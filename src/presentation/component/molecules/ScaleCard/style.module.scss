@@ -1,0 +1,47 @@
+@import "core/styles/_assets.scss";
+
+.card {
+	position: relative;
+	@include radius(5);
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	&.green {
+		background-color: color(green, 1);
+		box-shadow: 0px 0px 32px 10px color(green, 1);
+	}
+	&.purple {
+		background-color: color(purple, 1);
+		box-shadow: 0px 0px 32px 10px color(purple, 1);
+	}
+	&.orange {
+		background-color: color(orange);
+		box-shadow: 0px 0px 32px 10px color(orange);
+	}
+	&.blue {
+		background-color: color(blue, 1);
+		box-shadow: 0px 0px 32px 10px color(blue, 1);
+	}
+}
+.img {
+	@include radius(3);
+	overflow: hidden;
+	img {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+}
+.text {
+	padding: 40px;
+}
+.name {
+	font-family: ff(title);
+	@include font-size(h2);
+	font-weight: fw(black);
+	margin-bottom: 16px;
+}
+.description {
+	@include font-size(h6);
+	margin-bottom: 0;
+}

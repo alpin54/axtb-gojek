@@ -1,0 +1,196 @@
+/* ==========================================================================
+ Init: Fonts
+ ========================================================================== */
+
+@font-face {
+	font-family: "Maison Neue";
+	src: url("../../assets/fonts/MaisonNeue-Black.eot");
+	src: url("../../assets/fonts/MaisonNeue-Black.eot?#iefix")
+			format("embedded-opentype"),
+		url("../../assets/fonts/MaisonNeue-Black.woff2") format("woff2"),
+		url("../../assets/fonts/MaisonNeue-Black.woff") format("woff"),
+		url("../../assets/fonts/MaisonNeue-Black.ttf") format("truetype"),
+		url("../../assets/fonts/MaisonNeue-Black.svg#MaisonNeue-Black")
+			format("svg");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Maison Neue";
+	src: url("../../assets/fonts/MaisonNeue-Bold.eot");
+	src: url("../../assets/fonts/MaisonNeue-Bold.eot?#iefix")
+			format("embedded-opentype"),
+		url("../../assets/fonts/MaisonNeue-Bold.woff2") format("woff2"),
+		url("../../assets/fonts/MaisonNeue-Bold.woff") format("woff"),
+		url("../../assets/fonts/MaisonNeue-Bold.ttf") format("truetype"),
+		url("../../assets/fonts/MaisonNeue-Bold.svg#MaisonNeue-Bold") format("svg");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Maison Neue Book";
+	src: url("../../assets/fonts/MaisonNeue-Book.eot");
+	src: url("../../assets/fonts/MaisonNeue-Book.eot?#iefix")
+			format("embedded-opentype"),
+		url("../../assets/fonts/MaisonNeue-Book.woff2") format("woff2"),
+		url("../../assets/fonts/MaisonNeue-Book.woff") format("woff"),
+		url("../../assets/fonts/MaisonNeue-Book.ttf") format("truetype"),
+		url("../../assets/fonts/MaisonNeue-Book.svg#MaisonNeue-Book") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Maison Neue Extended";
+	src: url("../../assets/fonts/MaisonNeue-ExtendedBlack.eot");
+	src: url("../../assets/fonts/MaisonNeue-ExtendedBlack.eot?#iefix")
+			format("embedded-opentype"),
+		url("../../assets/fonts/MaisonNeue-ExtendedBlack.woff2") format("woff2"),
+		url("../../assets/fonts/MaisonNeue-ExtendedBlack.woff") format("woff"),
+		url("../../assets/fonts/MaisonNeue-ExtendedBlack.ttf") format("truetype"),
+		url("../../assets/fonts/MaisonNeue-ExtendedBlack.svg#MaisonNeue-ExtendedBlack")
+			format("svg");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Maison Neue Extended";
+	src: url("../../assets/fonts/MaisonNeue-ExtendedBold.eot");
+	src: url("../../assets/fonts/MaisonNeue-ExtendedBold.eot?#iefix")
+			format("embedded-opentype"),
+		url("../../assets/fonts/MaisonNeue-ExtendedBold.woff2") format("woff2"),
+		url("../../assets/fonts/MaisonNeue-ExtendedBold.woff") format("woff"),
+		url("../../assets/fonts/MaisonNeue-ExtendedBold.ttf") format("truetype"),
+		url("../../assets/fonts/MaisonNeue-ExtendedBold.svg#MaisonNeue-ExtendedBold")
+			format("svg");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Maison Neue";
+	src: url("../../assets/fonts/MaisonNeue-DemiBold.eot");
+	src: url("../../assets/fonts/MaisonNeue-DemiBold.eot?#iefix")
+			format("embedded-opentype"),
+		url("../../assets/fonts/MaisonNeue-DemiBold.woff2") format("woff2"),
+		url("../../assets/fonts/MaisonNeue-DemiBold.woff") format("woff"),
+		url("../../assets/fonts/MaisonNeue-DemiBold.ttf") format("truetype"),
+		url("../../assets/fonts/MaisonNeue-DemiBold.svg#MaisonNeue-DemiBold")
+			format("svg");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Maison Neue Extended";
+	src: url("../../assets/fonts/MaisonNeue-ExtendedBook.eot");
+	src: url("../../assets/fonts/MaisonNeue-ExtendedBook.eot?#iefix")
+			format("embedded-opentype"),
+		url("../../assets/fonts/MaisonNeue-ExtendedBook.woff2") format("woff2"),
+		url("../../assets/fonts/MaisonNeue-ExtendedBook.woff") format("woff"),
+		url("../../assets/fonts/MaisonNeue-ExtendedBook.ttf") format("truetype"),
+		url("../../assets/fonts/MaisonNeue-ExtendedBook.svg#MaisonNeue-ExtendedBook")
+			format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Maison Neue Extended";
+	src: url("../../assets/fonts/MaisonNeue-ExtendedDemiBold.eot");
+	src: url("../../assets/fonts/MaisonNeue-ExtendedDemiBold.eot?#iefix")
+			format("embedded-opentype"),
+		url("../../assets/fonts/MaisonNeue-ExtendedDemiBold.woff2") format("woff2"),
+		url("../../assets/fonts/MaisonNeue-ExtendedDemiBold.woff") format("woff"),
+		url("../../assets/fonts/MaisonNeue-ExtendedDemiBold.ttf") format("truetype"),
+		url("../../assets/fonts/MaisonNeue-ExtendedDemiBold.svg#MaisonNeue-ExtendedDemiBold")
+			format("svg");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Maison Neue Extended";
+	src: url("../../assets/fonts/MaisonNeue-ExtendedMedium.eot");
+	src: url("../../assets/fonts/MaisonNeue-ExtendedMedium.eot?#iefix")
+			format("embedded-opentype"),
+		url("../../assets/fonts/MaisonNeue-ExtendedMedium.woff2") format("woff2"),
+		url("../../assets/fonts/MaisonNeue-ExtendedMedium.woff") format("woff"),
+		url("../../assets/fonts/MaisonNeue-ExtendedMedium.ttf") format("truetype"),
+		url("../../assets/fonts/MaisonNeue-ExtendedMedium.svg#MaisonNeue-ExtendedMedium")
+			format("svg");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Maison Neue Extended";
+	src: url("../../assets/fonts/MaisonNeue-ExtendedExtraBold.eot");
+	src: url("../../assets/fonts/MaisonNeue-ExtendedExtraBold.eot?#iefix")
+			format("embedded-opentype"),
+		url("../../assets/fonts/MaisonNeue-ExtendedExtraBold.woff2") format("woff2"),
+		url("../../assets/fonts/MaisonNeue-ExtendedExtraBold.woff") format("woff"),
+		url("../../assets/fonts/MaisonNeue-ExtendedExtraBold.ttf")
+			format("truetype"),
+		url("../../assets/fonts/MaisonNeue-ExtendedExtraBold.svg#MaisonNeue-ExtendedExtraBold")
+			format("svg");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Maison Neue";
+	src: url("../../assets/fonts/MaisonNeue-Medium.eot");
+	src: url("../../assets/fonts/MaisonNeue-Medium.eot?#iefix")
+			format("embedded-opentype"),
+		url("../../assets/fonts/MaisonNeue-Medium.woff2") format("woff2"),
+		url("../../assets/fonts/MaisonNeue-Medium.woff") format("woff"),
+		url("../../assets/fonts/MaisonNeue-Medium.ttf") format("truetype"),
+		url("../../assets/fonts/MaisonNeue-Medium.svg#MaisonNeue-Medium")
+			format("svg");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Maison Neue";
+	src: url("../../assets/fonts/MaisonNeue-ExtraBold.eot");
+	src: url("../../assets/fonts/MaisonNeue-ExtraBold.eot?#iefix")
+			format("embedded-opentype"),
+		url("../../assets/fonts/MaisonNeue-ExtraBold.woff2") format("woff2"),
+		url("../../assets/fonts/MaisonNeue-ExtraBold.woff") format("woff"),
+		url("../../assets/fonts/MaisonNeue-ExtraBold.ttf") format("truetype"),
+		url("../../assets/fonts/MaisonNeue-ExtraBold.svg#MaisonNeue-ExtraBold")
+			format("svg");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "gojek-icon";
+	src: url("../../assets/fonts/icon/gojek-icon.eot?8kqphw");
+	src: url("../../assets/fonts/icon/gojek-icon.eot?8kqphw#iefix")
+			format("embedded-opentype"),
+		url("../../assets/fonts/icon/gojek-icon.ttf?8kqphw") format("truetype"),
+		url("../../assets/fonts/icon/gojek-icon.woff?8kqphw") format("woff"),
+		url("../../assets/fonts/icon/gojek-icon.svg?8kqphw#gojek-icon")
+			format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}

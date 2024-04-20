@@ -1,0 +1,61 @@
+@import "core/styles/_assets.scss";
+
+.blog {
+	padding: 80px 0;
+}
+.head {
+	margin-bottom: 64px;
+}
+.title {
+	font-family: ff(title);
+	@include font-size(h1);
+	font-weight: fw(black);
+	margin-bottom: 0;
+}
+.desc {
+	@include font-size(h5);
+	margin-bottom: 0;
+}
+.body {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-bottom: 64px;
+}
+.card {
+	flex-basis: 33.333333%;
+	padding: 8px;
+}
+.page {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+.item {
+	position: relative;
+	width: 64px;
+	height: 64px;
+	border: 1px solid color(primary, 1);
+	color: color(primary, 1);
+	border-radius: 50%;
+	margin-right: 16px;
+	@include font-size(h2);
+	cursor: pointer;
+	transition: all 0.3s ease;
+	&:hover {
+		background-color: color(primary, 1);
+		color: color(white);
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+	i {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}

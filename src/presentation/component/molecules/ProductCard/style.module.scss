@@ -1,0 +1,67 @@
+@import "core/styles/_assets.scss";
+
+.card {
+	position: relative;
+	@include radius(3);
+	height: 100%;
+	&Green {
+		background-color: color(primary, 2);
+		.list {
+			background-color: color(primary, 1);
+		}
+	}
+	&Blue {
+		background-color: color(blue, 3);
+		.list {
+			background-color: color(blue, 2);
+		}
+	}
+	&Red {
+		background-color: color(red, 3);
+		.list {
+			background-color: color(red, 2);
+		}
+	}
+	&Purple {
+		background-color: color(purple, 3);
+		.list {
+			background-color: color(purple, 2);
+		}
+	}
+}
+.list {
+	list-style: none;
+	padding: 32px;
+	margin: 0;
+	@include radius(3);
+	min-height: 300px;
+}
+.item {
+	margin-bottom: 16px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+.icon {
+	display: block;
+	height: 32px;
+}
+.text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 16px;
+	text-align: center;
+}
+.title {
+	font-family: ff(basic);
+	@include font-size(h3);
+	font-weight: fw(bold);
+	color: color(white);
+	margin-bottom: 0;
+}
+.desc {
+	@include font-size(label);
+	color: color(white);
+	margin-bottom: 0;
+}

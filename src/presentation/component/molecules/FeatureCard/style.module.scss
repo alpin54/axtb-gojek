@@ -1,0 +1,38 @@
+@import "core/styles/_assets.scss";
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 40px;
+	@include radius(4);
+	background-color: color(black, 2);
+	color: color(white);
+	&White {
+		background-color: color(white);
+		color: color(black, 1);
+	}
+}
+.img {
+	display: inline-block;
+	width: fit-content;
+	height: 32px;
+	margin-bottom: 24px;
+	img {
+		display: block;
+		height: 100%;
+	}
+}
+.title {
+	font-family: ff(title);
+	@include font-size(h5);
+	font-weight: fw(bold);
+	margin-bottom: 16px;
+}
+.desc {
+	@include font-size(h5);
+	margin-bottom: 24px;
+}

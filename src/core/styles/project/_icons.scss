@@ -1,0 +1,46 @@
+[class^="gi-"],
+[class*=" gi-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "gojek-icon" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.gi-playstore:before {
+	content: "\e900";
+}
+.gi-arrow-up:before {
+	content: "\ea3a";
+}
+.gi-arrow-right:before {
+	content: "\ea3c";
+}
+.gi-arrow-down:before {
+	content: "\ea3e";
+}
+.gi-arrow-left:before {
+	content: "\ea40";
+}
+.gi-facebook:before {
+	content: "\ea90";
+}
+.gi-instagram:before {
+	content: "\ea92";
+}
+.gi-twitter:before {
+	content: "\ea96";
+}
+.gi-youtube:before {
+	content: "\ea9d";
+}
+.gi-apple:before {
+	content: "\eabe";
+}
