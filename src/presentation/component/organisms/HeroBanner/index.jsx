@@ -17,8 +17,6 @@ const HeroBanner = (props) => {
 							className={style.videoel}
 							src={`https://www.youtube.com/embed/${props.embed}?enablejsapi=1&amp;version=3&amp;controls=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;mute=1&amp;playlist=${props.embed}&amp;playsinline=1`}
 							allowFullScreen=""
-							data-gtm-yt-inspected-6="true"
-							id="396715755"
 						></iframe>
 					</div>
 				)}
